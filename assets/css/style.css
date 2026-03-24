@@ -51,6 +51,22 @@ nav .container {
   justify-content: space-between; width: 100%;
 }
 .nav-logo { height: 40px; width: auto; }
+.nav-brand {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none;
+}
+.nav-icon { height: 40px; width: auto; }
+.nav-brand-text {
+  display: flex; flex-direction: column; line-height: 1.2;
+}
+.nav-brand-text strong {
+  font-size: 16px; font-weight: 800; letter-spacing: 1px;
+  color: var(--text); font-family: 'Inter', system-ui, sans-serif;
+}
+.nav-brand-text small {
+  font-size: 9px; font-weight: 400; letter-spacing: 0.3px;
+  color: var(--accent);
+}
 .nav-links {
   display: flex; align-items: center; gap: 32px;
   list-style: none;
@@ -446,6 +462,7 @@ footer {
   margin-bottom: 40px;
 }
 .footer-brand .logo-wrap { margin-bottom: 14px; }
+.footer-brand .nav-icon { height: 36px; }
 .footer-brand p {
   font-size: 13px; color: var(--text-muted); max-width: 260px; line-height: 1.6;
 }
