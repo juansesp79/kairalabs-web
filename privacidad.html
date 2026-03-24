@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidad — Kaira Labs</title>
+  <meta name="description" content="Política de Tratamiento y Protección de Datos Personales de Kaira Labs SAS, conforme a la Ley 1581 de 2012."/>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <style>
+    .privacy-hero {
+      padding: calc(var(--nav-h) + 64px) 0 64px;
+      border-bottom: 1px solid var(--border);
+    }
+    .privacy-hero h1 { font-size: clamp(28px,4vw,44px); font-weight:800; letter-spacing:-1px; margin-bottom:12px; }
+    .privacy-hero p { color:var(--text-muted); font-size:15px; }
+    .privacy-body { padding: 64px 0 96px; }
+    .privacy-layout { display:grid; grid-template-columns:220px 1fr; gap:56px; align-items:start; }
+    .privacy-toc {
+      position:sticky; top:calc(var(--nav-h) + 24px);
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:20px;
+    }
+    .privacy-toc h4 { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1.5px; color:var(--text-dim); margin-bottom:14px; }
+    .privacy-toc ol { list-style:none; counter-reset:toc; display:flex; flex-direction:column; gap:8px; }
+    .privacy-toc li { counter-increment:toc; display:flex; gap:8px; align-items:baseline; }
+    .privacy-toc li::before { content:counter(toc); font-size:11px; font-weight:700; color:var(--accent); min-width:16px; }
+    .privacy-toc a { font-size:13px; color:var(--text-muted); transition:color .2s; }
+    .privacy-toc a:hover { color:var(--text); }
+    .privacy-content { max-width:720px; }
+    .privacy-content h2 {
+      font-size:22px; font-weight:700; letter-spacing:-.5px;
+      margin: 48px 0 16px; padding-top:16px;
+      border-top:1px solid var(--border); color:var(--text);
+    }
+    .privacy-content h2:first-child { margin-top:0; border-top:none; }
+    .privacy-content h3 { font-size:16px; font-weight:600; margin:24px 0 10px; color:var(--text); }
+    .privacy-content p { font-size:15px; color:var(--text-muted); line-height:1.75; margin-bottom:14px; }
+    .privacy-content ul, .privacy-content ol { margin:12px 0 16px 20px; }
+    .privacy-content li { font-size:15px; color:var(--text-muted); line-height:1.7; margin-bottom:6px; }
+    .privacy-content strong { color:var(--text); font-weight:600; }
+    .privacy-content table { width:100%; border-collapse:collapse; margin:16px 0 24px; font-size:14px; }
+    .privacy-content th { background:var(--bg-card); color:var(--text); font-weight:600; padding:10px 14px; text-align:left; border:1px solid var(--border); }
+    .privacy-content td { padding:10px 14px; border:1px solid var(--border); color:var(--text-muted); vertical-align:top; }
+    .privacy-content tr:nth-child(even) td { background:rgba(255,255,255,.02); }
+    .highlight-box {
+      background:var(--accent-glow); border:1px solid rgba(20,184,166,.25);
+      border-radius:var(--radius); padding:18px 20px; margin:20px 0;
+      font-size:14px; color:var(--text-muted); line-height:1.6;
+    }
+    @media (max-width:768px) {
+      .privacy-layout { grid-template-columns:1fr; }
+      .privacy-toc { position:static; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav>
+  <div class="container">
+    <a href="/" aria-label="Kaira Labs inicio">
+      <img src="assets/img/kaira_logo_h.svg" alt="Kaira Labs" class="nav-logo"/>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="/#contacto">Contacto</a></li>
+    </ul>
+    <a href="/#contacto" class="btn-nav">Solicitar demo</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="privacy-hero">
+  <div class="container">
+    <span class="section-label">Legal</span>
+    <h1>Política de Tratamiento y<br/>Protección de Datos Personales</h1>
+    <p><strong>Kaira Labs SAS</strong> · Última actualización: 23 de marzo de 2026 · Versión 1.0</p>
+  </div>
+</div>
+
+<!-- Body -->
+<div class="privacy-body">
+  <div class="container">
+    <div class="privacy-layout">
+
+      <!-- TOC -->
+      <aside class="privacy-toc">
+        <h4>Contenido</h4>
+        <ol>
+          <li><a href="#sec1">Responsable del tratamiento</a></li>
+          <li><a href="#sec2">Marco normativo</a></li>
+          <li><a href="#sec3">Definiciones</a></li>
+          <li><a href="#sec4">Principios</a></li>
+          <li><a href="#sec5">Datos que recopilamos</a></li>
+          <li><a href="#sec6">Finalidades</a></li>
+          <li><a href="#sec7">Datos sensibles</a></li>
+          <li><a href="#sec8">Transferencias a terceros</a></li>
+          <li><a href="#sec9">Derechos ARCO</a></li>
+          <li><a href="#sec10">Medidas de seguridad</a></li>
+          <li><a href="#sec11">Retención de datos</a></li>
+          <li><a href="#sec12">Cookies</a></li>
+          <li><a href="#sec13">Cambios a la política</a></li>
+          <li><a href="#sec14">Contacto</a></li>
+        </ol>
+      </aside>
+
+      <!-- Content -->
+      <div class="privacy-content">
+
+        <div class="highlight-box">
+          Esta política aplica a todos los servicios y productos desarrollados por Kaira Labs SAS, incluyendo su plataforma de asistencia para el cuidado del adulto mayor. Al usar nuestros servicios, el titular acepta el tratamiento de sus datos conforme a los términos aquí descritos.
+        </div>
+
+        <h2 id="sec1">1. Identificación del responsable del tratamiento</h2>
+        <table>
+          <tr><th>Campo</th><th>Detalle</th></tr>
+          <tr><td>Razón social</td><td>Kaira Labs SAS</td></tr>
+          <tr><td>NIT</td><td>[Pendiente de constitución]</td></tr>
+          <tr><td>Domicilio</td><td>Bogotá D.C., Colombia</td></tr>
+          <tr><td>Correo electrónico</td><td><a href="mailto:privacidad@kairalabs.ai" style="color:var(--accent)">privacidad@kairalabs.ai</a></td></tr>
+          <tr><td>Sitio web</td><td>https://kairalabs.ai</td></tr>
+          <tr><td>Oficial de protección de datos</td><td>Juan Espinosa — <a href="mailto:juan.espinosa@kairalabs.ai" style="color:var(--accent)">juan.espinosa@kairalabs.ai</a></td></tr>
+        </table>
+
+        <h2 id="sec2">2. Marco normativo</h2>
+        <p>La presente política se rige por:</p>
+        <ul>
+          <li><strong>Ley 1581 de 2012</strong> — Régimen General de Protección de Datos Personales</li>
+          <li><strong>Decreto 1377 de 2013</strong> (compilado en Decreto 1074 de 2015) — Disposiciones reglamentarias</li>
+          <li><strong>Ley 1266 de 2008</strong> — Habeas Data financiero</li>
+          <li><strong>Ley 2015 de 2020</strong> — Historia Clínica Electrónica</li>
+          <li><strong>Resolución 1995 de 1999</strong> — Manejo de la historia clínica</li>
+          <li><strong>Resolución 1888 de 2025</strong> — Resumen Digital de Atención (RDA)</li>
+        </ul>
+
+        <h2 id="sec3">3. Definiciones</h2>
+        <ul>
+          <li><strong>Dato personal:</strong> cualquier información vinculada a una persona natural identificada o identificable.</li>
+          <li><strong>Dato sensible:</strong> aquel que afecta la intimidad del titular o cuyo uso indebido puede generar discriminación. Incluye datos de salud, biométricos y evaluaciones psicológicas.</li>
+          <li><strong>Titular:</strong> persona natural cuyos datos son objeto de tratamiento.</li>
+          <li><strong>Responsable:</strong> Kaira Labs SAS.</li>
+          <li><strong>Encargado:</strong> persona natural o jurídica que trata datos por cuenta del responsable.</li>
+          <li><strong>Autorización:</strong> consentimiento previo, expreso e informado del titular.</li>
+        </ul>
+
+        <h2 id="sec4">4. Principios rectores</h2>
+        <ol>
+          <li><strong>Legalidad:</strong> el tratamiento se sujeta a la ley colombiana vigente.</li>
+          <li><strong>Finalidad:</strong> el tratamiento obedece a finalidades legítimas, informadas al titular.</li>
+          <li><strong>Libertad:</strong> solo con consentimiento previo, expreso e informado.</li>
+          <li><strong>Veracidad:</strong> la información debe ser veraz, completa y actualizada.</li>
+          <li><strong>Transparencia:</strong> el titular puede obtener información sobre sus datos en cualquier momento.</li>
+          <li><strong>Seguridad:</strong> medidas técnicas y organizativas para proteger la información.</li>
+          <li><strong>Confidencialidad:</strong> reserva de la información por parte de quienes intervienen en el tratamiento.</li>
+        </ol>
+
+        <h2 id="sec5">5. Datos que recopilamos</h2>
+        <h3>5.1 Datos del adulto mayor (titular principal)</h3>
+        <table>
+          <tr><th>Categoría</th><th>Datos</th><th>Tipo</th></tr>
+          <tr><td>Identificación</td><td>Nombre completo, número de documento</td><td>Personal</td></tr>
+          <tr><td>Contacto</td><td>Número de teléfono (WhatsApp)</td><td>Personal</td></tr>
+          <tr><td>Ubicación</td><td>Geolocalización (cuando se solicita voluntariamente)</td><td>Personal</td></tr>
+          <tr><td><strong>Salud</strong></td><td>Medicamentos, dosis, signos vitales, citas médicas, notas clínicas</td><td><strong>Sensible</strong></td></tr>
+          <tr><td>Financiero</td><td>Gastos de cuidado (montos, facturas)</td><td>Personal</td></tr>
+          <tr><td>Multimedia</td><td>Imágenes y mensajes de voz enviados por WhatsApp</td><td>Personal</td></tr>
+        </table>
+        <h3>5.2 Datos de cuidadores</h3>
+        <table>
+          <tr><th>Categoría</th><th>Datos</th><th>Tipo</th></tr>
+          <tr><td>Identificación</td><td>Nombre, teléfono, correo electrónico</td><td>Personal</td></tr>
+          <tr><td>Laboral</td><td>Disponibilidad horaria, turnos, horas trabajadas</td><td>Personal</td></tr>
+          <tr><td><strong>Psicológico</strong></td><td>Resultados de evaluaciones (burnout, bienestar emocional, personalidad)</td><td><strong>Sensible</strong></td></tr>
+        </table>
+
+        <h2 id="sec6">6. Finalidades del tratamiento</h2>
+        <h3>6.1 Finalidades principales (necesarias para el servicio)</h3>
+        <ol>
+          <li>Coordinación del cuidado del adulto mayor entre múltiples cuidadores</li>
+          <li>Gestión de recordatorios de medicamentos y citas médicas</li>
+          <li>Registro y seguimiento de signos vitales</li>
+          <li>Generación de reportes de actividad y resúmenes para el equipo de cuidado</li>
+          <li>Gestión de turnos y cronogramas de cuidadores</li>
+          <li>Evaluación psicológica de cuidadores para prevención de burnout</li>
+          <li>Formación de cuidadores a través del módulo educativo</li>
+        </ol>
+        <h3>6.2 Finalidades secundarias (requieren consentimiento adicional)</h3>
+        <ol>
+          <li>Mejora del servicio mediante análisis agregado y anonimizado</li>
+          <li>Comunicaciones sobre nuevas funcionalidades</li>
+          <li>Participación en investigaciones académicas (datos anonimizados)</li>
+        </ol>
+
+        <h2 id="sec7">7. Tratamiento de datos sensibles</h2>
+        <p>Kaira Labs SAS reconoce que trata datos sensibles de salud y evaluación psicológica conforme al artículo 6 de la Ley 1581 de 2012. Este tratamiento:</p>
+        <ul>
+          <li>Cuenta con <strong>autorización explícita</strong> del titular o su representante legal</li>
+          <li>Es <strong>necesario</strong> para la prestación del servicio de coordinación de cuidado</li>
+          <li><strong>No condiciona</strong> ninguna actividad al suministro de datos sensibles, salvo que sean estrictamente necesarios</li>
+          <li><strong>No será usado</strong> con fines discriminatorios</li>
+        </ul>
+        <p>Cuando el adulto mayor no pueda otorgar consentimiento de manera autónoma, la autorización será otorgada por su representante legal o curador.</p>
+
+        <h2 id="sec8">8. Transferencias y transmisiones a terceros</h2>
+        <table>
+          <tr><th>Proveedor</th><th>País</th><th>Datos transmitidos</th><th>Finalidad</th></tr>
+          <tr><td>Groq Inc.</td><td>EE.UU.</td><td>Texto, audio, imágenes</td><td>Procesamiento IA (LLM/Whisper/Vision)</td></tr>
+          <tr><td>Google Cloud</td><td>EE.UU.</td><td>Imágenes de documentos</td><td>OCR</td></tr>
+          <tr><td>Microsoft Azure</td><td>Alemania</td><td>Texto para síntesis</td><td>Generación de voz (TTS)</td></tr>
+          <tr><td>Hetzner Online GmbH</td><td>Alemania</td><td>Todos los datos del servicio</td><td>Alojamiento de infraestructura</td></tr>
+          <tr><td>Cloudflare Inc.</td><td>EE.UU.</td><td>Tráfico web (en tránsito)</td><td>CDN y túnel seguro</td></tr>
+        </table>
+        <p>Los datos enviados a proveedores de IA son procesados en tiempo real y <strong>no se almacenan</strong> por estos proveedores según sus políticas de API. Kaira Labs SAS <strong>no vende ni comparte</strong> datos personales con terceros para fines comerciales.</p>
+
+        <h2 id="sec9">9. Derechos de los titulares (ARCO)</h2>
+        <p>Todo titular tiene derecho a:</p>
+        <ol>
+          <li><strong>Acceder</strong> gratuitamente a sus datos personales</li>
+          <li><strong>Rectificar</strong> datos inexactos o incompletos</li>
+          <li><strong>Cancelar/suprimir</strong> sus datos cuando no se traten conforme a la ley</li>
+          <li><strong>Oponerse</strong> al tratamiento para finalidades secundarias</li>
+          <li><strong>Revocar</strong> la autorización otorgada</li>
+          <li><strong>Presentar quejas</strong> ante la Superintendencia de Industria y Comercio (SIC)</li>
+        </ol>
+        <p>Las solicitudes deben dirigirse a <a href="mailto:privacidad@kairalabs.ai" style="color:var(--accent)">privacidad@kairalabs.ai</a>. Plazo de respuesta: 10 días hábiles para consultas, 15 días hábiles para reclamos.</p>
+
+        <h2 id="sec10">10. Medidas de seguridad</h2>
+        <h3>Medidas técnicas implementadas</h3>
+        <ul>
+          <li>Cifrado en reposo con AES-256 para datos sensibles (pgcrypto)</li>
+          <li>Cifrado en tránsito con HTTPS/TLS en todas las comunicaciones</li>
+          <li>Autenticación multifactor (MFA TOTP) obligatoria para administradores</li>
+          <li>Tokens de acceso de corta duración (15 min) con rotación automática</li>
+          <li>Control de acceso basado en roles (RBAC) con cuatro niveles de permisos</li>
+          <li>Contraseñas almacenadas con hash bcrypt (factor 12)</li>
+        </ul>
+        <p>En caso de incidente de seguridad, notificaremos a los titulares afectados dentro de las <strong>72 horas</strong> siguientes al conocimiento del incidente y reportaremos a la SIC.</p>
+
+        <h2 id="sec11">11. Retención y eliminación de datos</h2>
+        <table>
+          <tr><th>Tipo de dato</th><th>Período de retención</th></tr>
+          <tr><td>Datos de salud</td><td>Mínimo 15 años (Res. 1995/1999)</td></tr>
+          <tr><td>Datos financieros</td><td>10 años (normativa tributaria)</td></tr>
+          <tr><td>Logs de interacción</td><td>2 años</td></tr>
+          <tr><td>Evaluaciones psicológicas</td><td>Duración de la relación + 1 año</td></tr>
+          <tr><td>Datos de autenticación</td><td>Duración de la relación + 6 meses</td></tr>
+        </table>
+
+        <h2 id="sec12">12. Cookies y almacenamiento local</h2>
+        <p>El panel web utiliza <strong>almacenamiento local (localStorage)</strong> exclusivamente para el token de sesión y refresh token. No se utilizan cookies de terceros ni herramientas de rastreo externo.</p>
+
+        <h2 id="sec13">13. Cambios a esta política</h2>
+        <p>Los cambios serán comunicados mediante actualización en <a href="https://kairalabs.ai/privacidad" style="color:var(--accent)">kairalabs.ai/privacidad</a> y notificación a los usuarios activos del servicio. La continuación del uso constituye aceptación de los cambios.</p>
+
+        <h2 id="sec14">14. Contacto y quejas</h2>
+        <p><strong>Oficial de protección de datos:</strong><br/>
+        Juan Espinosa — <a href="mailto:privacidad@kairalabs.ai" style="color:var(--accent)">privacidad@kairalabs.ai</a></p>
+        <p><strong>Superintendencia de Industria y Comercio (SIC):</strong><br/>
+        <a href="https://www.sic.gov.co" style="color:var(--accent)" target="_blank">www.sic.gov.co</a> · Línea gratuita: 01 8000 910 165<br/>
+        Carrera 13 No. 27-00, Bogotá D.C.</p>
+
+        <div class="highlight-box" style="margin-top:40px">
+          <em>Documento elaborado conforme a la Ley 1581 de 2012 y sus decretos reglamentarios. Kaira Labs SAS — Bogotá, Colombia — 2026.</em>
+        </div>
+
+      </div><!-- /privacy-content -->
+    </div><!-- /privacy-layout -->
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="padding-top:0; border-top:none; justify-content:center; gap:24px;">
+      <a href="/">← Volver al inicio</a>
+      <span style="color:var(--text-dim)">© 2026 Kaira Labs SAS</span>
+      <a href="mailto:privacidad@kairalabs.ai">privacidad@kairalabs.ai</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

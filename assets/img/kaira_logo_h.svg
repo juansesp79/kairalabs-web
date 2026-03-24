@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" role="img" aria-label="Kaira Labs">
+  <!-- Icon mark (scaled to 60px height) -->
+  <g transform="translate(0,0) scale(0.75)">
+    <rect x="6" y="6" width="21" height="68" rx="10.5" fill="#14B8A6"/>
+    <line x1="25" y1="35" x2="75" y2="5" stroke="#14B8A6" stroke-width="15" stroke-linecap="round"/>
+    <line x1="25" y1="45" x2="75" y2="75" stroke="#14B8A6" stroke-width="15" stroke-linecap="round"/>
+    <path d="M -2,40 H 8 L 13,22 L 19,59 L 24,37 H 84"
+          fill="none" stroke="white" stroke-width="3.2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="72" y="34"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-weight="700" font-size="22" fill="#F1F5F9" letter-spacing="2.5">KAIRA LABS</text>
+  <text x="73" y="50"
+        font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-weight="400" font-size="10.5" fill="#14B8A6" letter-spacing="0.8">AI para el adulto mayor</text>
+</svg>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaira Labs — AI para el cuidado del adulto mayor</title>
+  <meta name="description" content="Kaira Labs desarrolla soluciones de inteligencia artificial para transformar el cuidado domiciliario del adulto mayor en América Latina."/>
+  <meta property="og:title" content="Kaira Labs — AI para el cuidado del adulto mayor"/>
+  <meta property="og:description" content="Tecnología que conecta cuidadores, familias y profesionales de salud para un cuidado más coordinado y humano."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://kairalabs.ai"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+<!-- ── Nav ──────────────────────────────────────────────── -->
+<nav>
+  <div class="container">
+    <a href="#" aria-label="Kaira Labs inicio">
+      <img src="assets/img/kaira_logo_h.svg" alt="Kaira Labs" class="nav-logo"/>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#problema">El problema</a></li>
+      <li><a href="#solucion">Nuestra plataforma</a></li>
+      <li><a href="#funcionalidades">Funcionalidades</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn-nav">Solicitar demo</a>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" id="mobile-menu">
+  <a href="#problema">El problema</a>
+  <a href="#solucion">Nuestra plataforma</a>
+  <a href="#funcionalidades">Funcionalidades</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#contacto" class="btn-nav" style="width:fit-content">Solicitar demo</a>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Bogotá, Colombia · Fase piloto 2026
+      </div>
+      <h1>Tecnología que<br/><span>transforma</span> el cuidado<br/>del adulto mayor</h1>
+      <p>Desarrollamos soluciones de inteligencia artificial para coordinar el cuidado domiciliario, reducir la carga de los cuidadores y mejorar la calidad de vida del adulto mayor.</p>
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn-primary">Solicitar una demo</a>
+        <a href="#solucion" class="btn-secondary">Conoce nuestra plataforma</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="chat-bubble carmenza">
+        <div class="sender">Plataforma · Asistente</div>
+        María, el recordatorio de hoy es la metformina a las 8am. El cuidador confirma que fue tomada ✅
+        <div class="time">hace 2 min</div>
+      </div>
+      <div class="chat-bubble user">
+        Gracias. ¿Cómo estuvo la presión ayer?
+        <div class="time">hace 1 min</div>
+      </div>
+      <div class="chat-bubble carmenza">
+        <div class="sender">Plataforma · Asistente</div>
+        Presión arterial ayer: 128/82 mmHg (normal). Registrada a las 3:15pm por el cuidador Pedro.
+        <div class="time">ahora</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-pill"><span class="icon">💊</span> 12 medicamentos activos</div>
+        <div class="stat-pill"><span class="icon">👥</span> 3 cuidadores coordinados</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Problema ──────────────────────────────────────────── -->
+<section class="problem" id="problema">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">El desafío</span>
+      <h2 class="section-title">Cuidar bien es difícil<br/>cuando la información no fluye</h2>
+      <p class="section-sub">El cuidado domiciliario del adulto mayor involucra múltiples personas, decisiones cotidianas críticas y mucha información dispersa.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="icon">🔄</div>
+        <h3>Coordinación fragmentada</h3>
+        <p>Los cuidadores se turnan sin contexto de lo ocurrido. Cada cambio de turno implica pérdida de información sobre medicamentos, estados de ánimo y novedades del día.</p>
+      </div>
+      <div class="problem-card">
+        <div class="icon">📋</div>
+        <h3>Información médica dispersa</h3>
+        <p>Medicamentos, citas, signos vitales y notas clínicas viven en cuadernos, mensajes de WhatsApp y la memoria de cada cuidador. No hay un registro consolidado.</p>
+      </div>
+      <div class="problem-card">
+        <div class="icon">😔</div>
+        <h3>Agotamiento del cuidador</h3>
+        <p>El 40–70% de los cuidadores familiares desarrolla burnout. Sin herramientas de apoyo ni canales de formación, la carga emocional se vuelve insostenible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Solución ──────────────────────────────────────────── -->
+<section id="solucion">
+  <div class="container">
+    <div class="solution-layout">
+      <div class="solution-text">
+        <span class="section-label">Nuestra plataforma</span>
+        <h2 class="section-title">Un sistema de coordinación inteligente para el equipo de cuidado</h2>
+        <p>En Kaira Labs desarrollamos una plataforma que conecta a cuidadores, familias y profesionales de salud en torno al adulto mayor — con inteligencia artificial integrada y WhatsApp como canal principal.</p>
+        <p>Sin instalaciones, sin curvas de aprendizaje. El cuidador ya sabe usar WhatsApp.</p>
+        <ul class="solution-points">
+          <li><span class="check">✦</span> Registro centralizado de toda la información del adulto mayor</li>
+          <li><span class="check">✦</span> Coordinación en tiempo real entre múltiples cuidadores</li>
+          <li><span class="check">✦</span> Alertas automáticas ante signos de alerta o medicamentos omitidos</li>
+          <li><span class="check">✦</span> Panel web para familias y coordinadores con métricas y reportes</li>
+          <li><span class="check">✦</span> Módulos de formación y evaluación psicológica para cuidadores</li>
+        </ul>
+      </div>
+      <div class="solution-visual">
+        <div class="sv-row">
+          <div class="sv-icon">💊</div>
+          <div class="sv-info">
+            <div class="label">Metformina 500mg</div>
+            <div class="sub">Hoy 8:00am · Confirmada por Pedro</div>
+          </div>
+          <span class="sv-badge ok">✓ Tomada</span>
+        </div>
+        <div class="sv-row">
+          <div class="sv-icon">🫀</div>
+          <div class="sv-info">
+            <div class="label">Presión arterial</div>
+            <div class="sub">Ayer 3:15pm · 128/82 mmHg</div>
+          </div>
+          <span class="sv-badge ok">Normal</span>
+        </div>
+        <div class="sv-row">
+          <div class="sv-icon">📅</div>
+          <div class="sv-info">
+            <div class="label">Cita — Dr. Rodríguez</div>
+            <div class="sub">Mañana 10:00am · Recordatorio activo</div>
+          </div>
+          <span class="sv-badge warn">Mañana</span>
+        </div>
+        <div class="sv-row">
+          <div class="sv-icon">🔁</div>
+          <div class="sv-info">
+            <div class="label">Entrega de turno</div>
+            <div class="sub">Pedro → Ana · Resumen enviado al grupo</div>
+          </div>
+          <span class="sv-badge ok">✓ Completada</span>
+        </div>
+        <div class="sv-row">
+          <div class="sv-icon">📊</div>
+          <div class="sv-info">
+            <div class="label">Evaluación cognitiva</div>
+            <div class="sub">Pfeiffer · Enero 2026 · 8/10</div>
+          </div>
+          <span class="sv-badge ok">Normal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Funcionalidades ───────────────────────────────────── -->
+<section id="funcionalidades" style="background: var(--bg-card2);">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Funcionalidades</span>
+      <h2 class="section-title">Todo lo que el equipo<br/>de cuidado necesita</h2>
+      <p class="section-sub">Desde el registro diario de medicamentos hasta la evaluación del bienestar del cuidador — integrado en una sola plataforma.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="f-icon">⏰</div>
+        <h3>Recordatorios automáticos</h3>
+        <p>Medicamentos, citas médicas y controles con dosis múltiples. Avisos por WhatsApp con confirmación del cuidador.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon">🫀</div>
+        <h3>Signos vitales</h3>
+        <p>Registro por mensaje de texto ("presión 128/82") o desde el panel. Alertas automáticas por valores fuera de rango.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon">💊</div>
+        <h3>Kardex de medicamentos</h3>
+        <p>Historial visual con semaforización: tomado, pendiente, omitido. Médico tratante puede consultar en tiempo real.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon">📆</div>
+        <h3>Cronograma de cuidadores</h3>
+        <p>Gestión de disponibilidad, generación de turnos balanceados y control de horas mensuales para prevenir burnout.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon">🧠</div>
+        <h3>Evaluación cognitiva</h3>
+        <p>Test Pfeiffer/SPMSQ administrado por la plataforma al adulto mayor. Scoring automático con narrativa clínica.</p>
+      </div>
+      <div class="feature-card">
+        <div class="f-icon">🎓</div>
+        <h3>Formación de cuidadores</h3>
+        <p>Módulos de video + quiz con contenido especializado en gerontología. Acceso por link personal, sin crear cuenta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WhatsApp ──────────────────────────────────────────── -->
+<section class="wapp">
+  <div class="container">
+    <div class="wapp-layout">
+      <div>
+        <span class="section-label">Por qué WhatsApp</span>
+        <h2 class="section-title">Cero barrera<br/>de adopción</h2>
+        <div class="wapp-stats">
+          <div class="wapp-stat">
+            <div class="num">97%</div>
+            <div class="desc">Penetración de WhatsApp en Colombia</div>
+          </div>
+          <div class="wapp-stat">
+            <div class="num">0</div>
+            <div class="desc">Apps adicionales que instalar</div>
+          </div>
+          <div class="wapp-stat">
+            <div class="num">5 min</div>
+            <div class="desc">Para incorporar un nuevo cuidador</div>
+          </div>
+          <div class="wapp-stat">
+            <div class="num">24/7</div>
+            <div class="desc">Disponibilidad del asistente</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p style="font-size:17px; color:var(--text-muted); line-height:1.7; margin-bottom:28px;">
+          Nuestras soluciones operan sobre el canal de mensajería que cuidadores y familias ya usan diariamente. No hay que enseñar una nueva herramienta — solo usar WhatsApp.
+        </p>
+        <div class="wapp-reasons">
+          <div class="reason">
+            <div class="r-icon">📱</div>
+            <div class="r-text">
+              <strong>Sin instalaciones</strong>
+              <span>El cuidador interactúa por WhatsApp. El coordinador tiene panel web. Cada quien en su canal.</span>
+            </div>
+          </div>
+          <div class="reason">
+            <div class="r-icon">🎙️</div>
+            <div class="r-text">
+              <strong>Voz, texto e imagen</strong>
+              <span>El cuidador puede enviar audio, fotos de fórmulas médicas o facturas. La IA extrae y organiza la información.</span>
+            </div>
+          </div>
+          <div class="reason">
+            <div class="r-icon">🔒</div>
+            <div class="r-text">
+              <strong>Privacidad por diseño</strong>
+              <span>Cifrado en reposo, autenticación multifactor, roles granulares. Cumplimiento Ley 1581/2012.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contacto ──────────────────────────────────────────── -->
+<section id="contacto">
+  <div class="container">
+    <span class="section-label">Contacto</span>
+    <h2 class="section-title">Hablemos</h2>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <p>Estamos en fase piloto y buscamos instituciones, hogares geriátricos y equipos de cuidado domiciliario en Colombia para co-desarrollar la solución.</p>
+        <p>Si trabajas en salud, bienestar del adulto mayor o coordinación de cuidados — nos encantaría conocer tu caso.</p>
+        <div class="contact-detail">
+          <span class="cd-icon">✉️</span>
+          <a href="mailto:hola@kairalabs.ai">hola@kairalabs.ai</a>
+        </div>
+        <div class="contact-detail">
+          <span class="cd-icon">📍</span>
+          Bogotá D.C., Colombia
+        </div>
+        <div class="contact-detail">
+          <span class="cd-icon">🔒</span>
+          <a href="/privacidad.html">Política de privacidad</a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="contact-form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required placeholder="Tu nombre completo"/>
+          </div>
+          <div class="form-group">
+            <label for="org">Organización / Rol</label>
+            <input type="text" id="org" name="org" placeholder="Hospital, hogar geriátrico, familia…"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="tu@correo.com"/>
+          </div>
+          <div class="form-group">
+            <label for="interest">¿Qué te interesa?</label>
+            <select id="interest" name="interest">
+              <option value="">Selecciona una opción</option>
+              <option value="demo">Ver una demostración</option>
+              <option value="piloto">Participar en el piloto</option>
+              <option value="alianza">Explorar una alianza</option>
+              <option value="inversion">Información para inversores</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Cuéntanos sobre tu contexto…"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Enviar mensaje →</button>
+        </form>
+        <div class="form-success">
+          ✅ Mensaje recibido. Te contactamos pronto.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────── -->
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="logo-wrap">
+          <img src="assets/img/kaira_logo_h.svg" alt="Kaira Labs" style="height:36px"/>
+        </div>
+        <p>Desarrollamos soluciones de inteligencia artificial para transformar el cuidado domiciliario del adulto mayor en América Latina.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Plataforma</h4>
+        <ul>
+          <li><a href="#problema">El problema</a></li>
+          <li><a href="#solucion">Nuestra solución</a></li>
+          <li><a href="#funcionalidades">Funcionalidades</a></li>
+          <li><a href="#contacto">Demo</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacidad.html">Política de privacidad</a></li>
+          <li><a href="mailto:privacidad@kairalabs.ai">Oficial de datos</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="mailto:hola@kairalabs.ai">hola@kairalabs.ai</a></li>
+          <li><a href="mailto:juan.espinosa@kairalabs.ai">juan.espinosa@kairalabs.ai</a></li>
+          <li><span style="color:var(--text-dim)">Bogotá, Colombia</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Kaira Labs SAS. Todos los derechos reservados.</span>
+      <span>Hecho con ❤️ en Colombia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
