@@ -305,7 +305,7 @@
         </div>
       </div>
       <div class="contact-form">
-        <form id="contact-form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+        <form id="contact-form">
           <div class="form-group">
             <label for="name">Nombre</label>
             <input type="text" id="name" name="name" required placeholder="Tu nombre completo"/>
@@ -334,10 +334,44 @@
             <textarea id="message" name="message" placeholder="Cuéntanos sobre tu contexto…"></textarea>
           </div>
           <button type="submit" class="form-submit">Enviar mensaje →</button>
+          <div class="form-error" style="display:none;color:#ef4444;font-size:14px;margin-top:10px"></div>
         </form>
-        <div class="form-success">
+        <div class="form-success" style="display:none">
           ✅ Mensaje recibido. Te contactamos pronto.
         </div>
+        <script>
+        document.getElementById('contact-form').addEventListener('submit', async function(e) {
+          e.preventDefault();
+          const btn = this.querySelector('button[type=submit]');
+          const errDiv = this.querySelector('.form-error');
+          const successDiv = this.parentElement.querySelector('.form-success');
+          btn.disabled = true;
+          btn.textContent = 'Enviando...';
+          errDiv.style.display = 'none';
+          try {
+            const res = await fetch('https://api.carmenza.co/contact', {
+              method: 'POST',
+              headers: {'Content-Type': 'application/json'},
+              body: JSON.stringify({
+                name: this.name.value,
+                email: this.email.value,
+                org: this.org.value,
+                interest: this.interest.value,
+                message: this.message.value,
+              }),
+            });
+            if (!res.ok) throw new Error('Error al enviar');
+            this.style.display = 'none';
+            successDiv.style.display = 'block';
+          } catch(err) {
+            errDiv.textContent = 'No se pudo enviar. Intenta de nuevo o escríbenos a hola@kairalabs.ai';
+            errDiv.style.display = 'block';
+          } finally {
+            btn.disabled = false;
+            btn.textContent = 'Enviar mensaje →';
+          }
+        });
+        </script>
       </div>
     </div>
   </div>
