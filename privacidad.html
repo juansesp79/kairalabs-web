@@ -78,7 +78,7 @@
   <div class="container">
     <span class="section-label">Legal</span>
     <h1>Política de Tratamiento y<br/>Protección de Datos Personales</h1>
-    <p><strong>Kaira Labs SAS</strong> · Última actualización: 23 de marzo de 2026 · Versión 1.0</p>
+    <p><strong>Kaira Labs SAS</strong> · Última actualización: 31 de marzo de 2026 · Versión 1.1</p>
   </div>
 </div>
 
@@ -206,15 +206,17 @@
         <p>Cuando el adulto mayor no pueda otorgar consentimiento de manera autónoma, la autorización será otorgada por su representante legal o curador.</p>
 
         <h2 id="sec8">8. Transferencias y transmisiones a terceros</h2>
+        <p>Para la prestación del servicio, Kaira Labs SAS utiliza proveedores tecnológicos especializados que actúan como encargados del tratamiento. Los datos se transmiten exclusivamente para las finalidades descritas en esta política.</p>
         <table>
-          <tr><th>Proveedor</th><th>País</th><th>Datos transmitidos</th><th>Finalidad</th></tr>
-          <tr><td>Groq Inc.</td><td>EE.UU.</td><td>Texto, audio, imágenes</td><td>Procesamiento IA (LLM/Whisper/Vision)</td></tr>
-          <tr><td>Google Cloud</td><td>EE.UU.</td><td>Imágenes de documentos</td><td>OCR</td></tr>
-          <tr><td>Microsoft Azure</td><td>Alemania</td><td>Texto para síntesis</td><td>Generación de voz (TTS)</td></tr>
-          <tr><td>Hetzner Online GmbH</td><td>Alemania</td><td>Todos los datos del servicio</td><td>Alojamiento de infraestructura</td></tr>
-          <tr><td>Cloudflare Inc.</td><td>EE.UU.</td><td>Tráfico web (en tránsito)</td><td>CDN y túnel seguro</td></tr>
+          <tr><th>Tipo de proveedor</th><th>Ubicación</th><th>Datos transmitidos</th><th>Finalidad</th></tr>
+          <tr><td>Proveedores de inteligencia artificial</td><td>EE.UU.</td><td>Texto, audio, imágenes</td><td>Procesamiento de lenguaje natural, transcripción de audio, análisis de imágenes</td></tr>
+          <tr><td>Proveedor de reconocimiento de documentos</td><td>EE.UU.</td><td>Imágenes de documentos</td><td>Extracción de texto (OCR)</td></tr>
+          <tr><td>Proveedor de síntesis de voz</td><td>Unión Europea</td><td>Texto para síntesis</td><td>Generación de voz</td></tr>
+          <tr><td>Proveedor de alojamiento</td><td>Unión Europea</td><td>Datos del servicio</td><td>Infraestructura y almacenamiento</td></tr>
+          <tr><td>Proveedor de red de distribución</td><td>EE.UU.</td><td>Tráfico web (en tránsito)</td><td>Seguridad y rendimiento de la red</td></tr>
         </table>
-        <p>Los datos enviados a proveedores de IA son procesados en tiempo real y <strong>no se almacenan</strong> por estos proveedores según sus políticas de API. Kaira Labs SAS <strong>no vende ni comparte</strong> datos personales con terceros para fines comerciales.</p>
+        <p>Los datos enviados a proveedores de inteligencia artificial son procesados en tiempo real y <strong>no se almacenan</strong> por estos proveedores según sus políticas de API. Kaira Labs SAS <strong>no vende ni comparte</strong> datos personales con terceros para fines comerciales.</p>
+        <p>La lista detallada de sub-procesadores está disponible bajo solicitud a <a href="mailto:privacidad@kairalabs.ai" style="color:var(--accent)">privacidad@kairalabs.ai</a>.</p>
 
         <h2 id="sec9">9. Derechos de los titulares (ARCO)</h2>
         <p>Todo titular tiene derecho a:</p>
@@ -231,12 +233,12 @@
         <h2 id="sec10">10. Medidas de seguridad</h2>
         <h3>Medidas técnicas implementadas</h3>
         <ul>
-          <li>Cifrado en reposo con AES-256 para datos sensibles (pgcrypto)</li>
+          <li>Cifrado en reposo para datos sensibles con estándares de la industria</li>
           <li>Cifrado en tránsito con HTTPS/TLS en todas las comunicaciones</li>
-          <li>Autenticación multifactor (MFA TOTP) obligatoria para administradores</li>
-          <li>Tokens de acceso de corta duración (15 min) con rotación automática</li>
-          <li>Control de acceso basado en roles (RBAC) con cuatro niveles de permisos</li>
-          <li>Contraseñas almacenadas con hash bcrypt (factor 12)</li>
+          <li>Autenticación multifactor obligatoria para administradores</li>
+          <li>Tokens de acceso de corta duración con rotación automática</li>
+          <li>Control de acceso basado en roles con múltiples niveles de permisos</li>
+          <li>Contraseñas almacenadas con algoritmos de hash seguros</li>
         </ul>
         <p>En caso de incidente de seguridad, notificaremos a los titulares afectados dentro de las <strong>72 horas</strong> siguientes al conocimiento del incidente y reportaremos a la SIC.</p>
 
